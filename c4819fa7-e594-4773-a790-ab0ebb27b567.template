@@ -1,0 +1,92 @@
+{
+    "name": "CHAR",
+    "author": "reMarkable",
+    "iconData": "PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDE1MCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNDIyXzQxKSI+CjxwYXRoIGQ9Ik0xNDYgNFYxOTZINFY0SDE0NlpNMTUwIDBIMFYyMDBIMTUwVjBaIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIzNyIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI3MyIgd2lkdGg9IjQiIGhlaWdodD0iMjAwIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSIxMDkiIHdpZHRoPSI0IiBoZWlnaHQ9IjIwMCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iNTgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMzgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iNzgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iOTgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTE4IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjxyZWN0IHk9IjEzOCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI0IiBmaWxsPSJibGFjayIvPgo8cmVjdCB5PSIxNTgiIHdpZHRoPSIxNTAiIGhlaWdodD0iNCIgZmlsbD0iYmxhY2siLz4KPHJlY3QgeT0iMTc4IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQiIGZpbGw9ImJsYWNrIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTQyMl80MSI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMjAwIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=",
+    "templateVersion": "1.0.0",
+    "formatVersion": 1,
+    "categories": ["Productivity", "Note-taking"],
+    "labels": ["Meetings"],
+    "orientation": "portrait",
+    "constants": [
+        {"squareWidth": 120},
+        {"squareHeight": 120}
+    ],
+    "items": [
+        {
+            "type": "group",
+            "boundingBox": {
+                "x": -100,
+                "y": -100,
+                "width": "squareWidth",
+                "height": "squareHeight"
+            },
+			"repeat": {
+				"rows": "infinite",
+				"columns": "infinite"
+			},
+            "children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 0.7,
+                    "data": [
+                        "M", "squareWidth", "squareHeight",
+                        "L", "squareWidth * 2", "squareHeight",
+                        "L", "squareWidth * 2", "squareHeight * 2",
+                        "L", "squareWidth", "squareHeight * 2",
+						"L", "squareWidth", "squareHeight"
+                    ]
+                }
+			]
+		},
+		{
+			"type": "group",
+			"boundingBox": {
+					"x": -100,
+					"y": -100,
+					"width": "squareWidth",
+					"height": "squareHeight"
+			},
+			"repeat": {
+				"columns": "infinite",
+				"rows": "infinite"
+			},
+			"children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 0.4,
+                    "data": [
+                        "M", "squareWidth", "squareHeight",
+                        "L", "squareWidth * 2", "squareHeight * 2",
+                        "M", "squareWidth * 2", "squareHeight",
+                        "L", "squareWidth", "squareHeight * 2"
+                    ]
+                }
+			]
+		},
+		{
+			"type": "group",
+			"boundingBox": {
+					"x": -100,
+					"y": -100,
+					"width": "squareWidth",
+					"height": "squareHeight"
+			},
+			"repeat": {
+				"columns": "infinite",
+				"rows": "infinite"
+			},
+			"children": [
+                {
+                    "type": "path",
+                    "strokeWidth": 0.4,
+                    "data": [
+                        "M", "squareWidth * 1.5", "squareHeight",
+                        "L", "squareWidth * 1.5", "squareHeight * 2",
+                        "M", "squareWidth * 1", "squareHeight * 1.5",
+                        "L", "squareWidth * 2", "squareHeight * 1.5"
+                    ]
+                }
+            ]
+        }
+    ]
+}
